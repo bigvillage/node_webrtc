@@ -25,8 +25,8 @@ const stun = {
 
 const server = https.createServer(
   {
-    key: fs.readFileSync("./pem/STAR.saerom.co.kr_key.pem"),
-    cert: fs.readFileSync("./pem/STAR.saerom.co.kr_crt.pem"),
+    key: fs.readFileSync("./pem/STAR.jaehwan.co.kr_key.pem"),
+    cert: fs.readFileSync("./pem/STAR.jaehwan.co.kr_crt.pem"),
   },
   app
 );
