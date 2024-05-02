@@ -1,0 +1,28 @@
+{
+    "systems": {
+        "elasticsearch": {
+            "protocol": "http",
+            "server": "127.0.0.1",
+            "port": 19200,
+            "index": [
+                "approcomplete",
+                "approcomplete_attachments"
+            ],
+            "uid": "elastic",
+            "pwd": "123!@#qwe"
+        }
+    },
+    "sources": {
+        "esFields": {
+            "_subject": [
+                "_subject.search"
+            ],
+            "_sformtitle": [
+                "_sformtitle.search"
+            ],
+            "_author": [
+                "_author.search"
+            ]
+        }
+    }
+}
